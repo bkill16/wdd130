@@ -1,0 +1,62 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.russell {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%
+}
+
+.educationQuote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#presidentNelson {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.atonementQuote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.whoSays {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    text-align: center;
+    font-size: 14px
+}
+
+.blackHover:hover {
+    color: black;
+}
