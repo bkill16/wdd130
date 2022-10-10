@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 
-.container {
+.rectanlges {
     text-align: center;
     vertical-align: middle;
     line-height: 75px;
@@ -40,5 +40,5 @@
     height: 100px;
     width: 100px;
     background-color: purple;
-    margin-top: 100px
+    margin-top: 100px;
 }
