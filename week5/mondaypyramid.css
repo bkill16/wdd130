@@ -1,0 +1,44 @@
+.topRectangle {
+    height: 75px;
+    width: 450px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.middleRectangle {
+    height: 75px;
+    width: 650px;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bottomRectangle {
+    height: 75px;
+    width: 850px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+}
+
+.purpleSquareLeft {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: 100px;
+}
+
+.purpleSquareRight {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: 100px
+}
