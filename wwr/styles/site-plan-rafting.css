@@ -5,10 +5,10 @@ Fonts are separated by a & */
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #2175bf;
-    --secondary-color: #32a9d9;
-    --accent1-color: #d98218;
-    --accent2-color: #a64f03;
+    --primary-color: #a6a6a6;
+    --secondary-color: #595959;
+    --accent1-color: #404040;
+    --accent2-color: #262626;
 
     /* change the values below to your chosen font(s) */
     --heading-font: Caveat;
@@ -23,11 +23,11 @@ Fonts are separated by a & */
     /* paragraph text on a white background */
     --paragraph-color-on-color: white;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #2175bf;
+    --paragraph-background-color: #a6a6a6;
     --nav-link-color: white;
-    --nav-background-color: #32a9d9;
+    --nav-background-color: #595959;
     --nav-hover-link-color: white;
-    --nav-hover-background-color: #2175bf;
+    --nav-hover-background-color: #a6a6a6;
 }
 
 
