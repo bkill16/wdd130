@@ -1,0 +1,39 @@
+body {
+    background-color: #656565;
+    margin: 0;
+}
+
+.backgroundCirlces {
+    max-width: 100%;
+}
+
+.desk {
+    width: 75%;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #333333;
+    margin: 0 auto;
+}
+
+.graphic {
+    width: 75%;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #333333;
+}
+
+.person {
+    width: 75%;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #333333;
+}
+
+.column {
+    flex: 30%;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+}
