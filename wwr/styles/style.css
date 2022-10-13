@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -33,6 +36,14 @@ main section {
 
 body {
     background-color: whitesmoke;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
 }
 
 header {
@@ -48,12 +59,20 @@ nav a:hover {
     background-color: whitesmoke;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: #a6a6a6;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -68,19 +87,27 @@ nav a:hover {
 
 .msg {
     background-color: #a6a6a6;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 .msg h2 {
     color: black;
+    font-family: Caveat, Helvetica, sans-serif;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #262626;
     color: whitesmoke;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -102,6 +129,9 @@ footer p:hover {
 
 .home-title {
     color: black;
+    font-family: Caveat, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo {
@@ -109,9 +139,42 @@ footer p:hover {
 }
 
 .icon {
-    width: 80px
+    padding-top: 10px;
+    width: 80px;
 }
 
 #hero-img {
     width: 100%
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #262626
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin-top: 100px;
 }
