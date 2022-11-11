@@ -243,6 +243,52 @@ nav {
     transform: scale(1.1);
 }
 
+/* Start of Rivers CSS */
+
+#rivers-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#rivers-banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#river-banner-img {
+    width: 100%;
+    height: 75%;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.salmon-river-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.deso-gray-img {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.grand-canyon-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.river-img {
+    border: 10px solid #262626;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 25px;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
