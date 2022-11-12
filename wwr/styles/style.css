@@ -389,49 +389,4 @@ nav {
     footer {
         margin-top: 25px;
     }
-
-    .rivers-grid {
-        display: block;
-        height: auto;
-    }
-
-    #rivers-banner-msg {
-        font-size: 25px;
-    }
-
-    .salmon-img {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .salmon-text {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .deso-img {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .deso-text {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .grand-img {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .grand-text {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
 }
