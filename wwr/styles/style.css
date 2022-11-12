@@ -390,6 +390,15 @@ nav {
         margin-top: 25px;
     }
 
+    .rivers-grid {
+        display: block;
+        height: auto;
+    }
+
+    #rivers-banner-msg {
+        font-size: 25px;
+    }
+
     .salmon-img {
         display: block;
         width: 80%;
