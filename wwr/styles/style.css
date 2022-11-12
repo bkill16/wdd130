@@ -389,4 +389,40 @@ nav {
     footer {
         margin-top: 25px;
     }
+
+    .salmon-img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .salmon-text {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .deso-img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .deso-text {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .grand-img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .grand-text {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
 }
