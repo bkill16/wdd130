@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
 
 #content {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    max-width: 1600px;
+    margin: 0 auto;
     overflow-x: hidden;
 }
 
@@ -16,29 +14,70 @@ h1 {
     font-family: Kalam, Arial, Helvetica, sans-serif;
 }
 
-header {
-    display: flex;
-    width: 100%;
+.top-nav {
+    position: relative;
     background-color: #5C5552;
-    align-items: center;
-    justify-content: space-around;
+    width: 100%;
+    height: 125px;
 }
 
-nav a {
-    text-decoration: none;
+.top-nav a {
+    float: left;
     color: white;
-    padding: 50px;
-    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
     font-weight: bold;
 }
 
-nav a:hover {
+.top-nav-left a:hover {
+    background-color: #8F857D;
     color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.top-nav-right a:hover {
+    background-color: #8F857D;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.top-nav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-nav-left {
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.top-nav-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
 .logo {
-    width: 225px;
+    width: 175px;
     height: 100%;
+    margin-top: 16px;
+
+}
+
+#locations-link {
+    margin-left: 100px;
+}
+
+#safety-link {
+    margin-right: 100px;
 }
 
 footer {
@@ -69,7 +108,7 @@ footer a {
 }
 
 footer a:hover {
-    color: black;
+    color: white;
 }
 
 footer p {
@@ -82,6 +121,8 @@ footer p:hover {
 
 footer .social img {
     padding-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #home-hero-grid {
