@@ -139,7 +139,8 @@ footer .social img {
 #home-hero-msg h4 {
     grid-column: 2/3;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
+    margin-left: 25px;
 }
 
 .button-box {
