@@ -4,6 +4,7 @@
     max-width: 1600px;
     margin: 0 auto;
     overflow-x: hidden;
+    background-color: #DECBB7;
 }
 
 body {
@@ -356,4 +357,144 @@ footer .social img {
     grid-row: 3/4;
     font-size: 17px;
     margin-right: 15px;
+}
+
+/* End locations. Start safety */
+
+#safety-hero {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #DECBB7;
+}
+
+#safety-hero-box {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+#safety-hero-img {
+    width: 100%;
+    height: 650px;
+}
+
+#safety-hero-title {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 150px;
+    color: white;
+}
+
+#divider-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #DECBB7;
+}
+
+#safety-divider {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+    background-color: #DECBB7;
+    color: #433633;
+    font-size: 60px;
+    margin-top: -150px;
+}
+
+#safety-divider h1 {
+    margin-left: 17px;
+}
+
+.safety-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    background-color: #DECBB7;
+}
+
+.safety-card-img {
+    width: 500px;
+    height: 500px;
+    border: solid 6px;
+    border-color: #433633;
+    border-radius: 25px;
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-right: 25px;
+}
+
+#equipment-box {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    background-color: #8F857D;
+    border: solid 5px;
+    border-color: #433633;
+    border-radius: 25px;
+}
+
+#experience-box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    background-color: #8F857D;
+    border: solid 5px;
+    border-color: #433633;
+    border-radius: 25px;
+}
+
+#trail-box {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    background-color: #8F857D;
+    border: solid 5px;
+    border-color: #433633;
+    border-radius: 25px;
+}
+
+.equipment-msg h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.equipment-msg ul {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.experience-msg h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.experience-msg ul {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.trail-msg h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.trail-msg ul {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#footer-safety {
+    background-color: #5C5552;
+    color: white;
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
 }
